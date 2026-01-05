@@ -1,5 +1,7 @@
 'use client';
-
+useEffect(() => {
+  fetchJobs();
+}, [fetchJobs]);
 import { useState, useEffect } from 'react';
 import { 
   Briefcase, 

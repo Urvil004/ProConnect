@@ -136,7 +136,7 @@ export default function SavedItemsPage() {
                 No saved items yet
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-6">
-                Save posts you'd like to revisit later
+                Save posts you would like to revisit later
               </p>
               <Link href="/">
                 <Button className="bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600">

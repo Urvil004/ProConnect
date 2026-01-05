@@ -118,7 +118,7 @@ export default function AboutPage() {
         >
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Join Our Community</h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-6">
-            Whether you're looking to advance your career, find new opportunities, or connect with 
+            Whether your looking to advance your career, find new opportunities, or connect with 
             like-minded professionals, ProConnect is here to support your journey.
           </p>
           <Link

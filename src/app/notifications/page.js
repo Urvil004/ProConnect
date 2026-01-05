@@ -352,12 +352,12 @@ export default function NotificationsPage() {
 
                       <p className="text-slate-700 dark:text-gray-300 mb-3">{notification.message}</p>
 
-                      {/* Comment Section */}
-                      {notification.comment && (
-                        <div className="bg-slate-50 dark:bg-gray-900/50 rounded-lg p-3 mb-3 border-l-4 border-purple-400 dark:border-purple-600">
-                          <p className="text-sm text-slate-600 dark:text-gray-400 italic">"{notification.comment}"</p>
-                        </div>
-                      )}
+                     {/* Comment Section */}
+{notification.comment && (
+  <div className="bg-slate-50 dark:bg-gray-900/50 rounded-lg p-3 mb-3 border-l-4 border-purple-400 dark:border-purple-600">
+    <p className="text-sm text-slate-600 dark:text-gray-400 italic">&quot;{notification.comment}&quot;</p>
+  </div>
+)}
 
                       {/* Avatar */}
                       {notification.avatar && (
@@ -435,7 +435,7 @@ export default function NotificationsPage() {
             <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 dark:from-green-600 dark:to-emerald-700 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-xl">
               <CheckCircle2 className="w-10 h-10 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">You're all caught up! 🎉</h3>
+            <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Your all caught up! 🎉</h3>
             <p className="text-slate-600 dark:text-gray-400">No new notifications in this category</p>
           </div>
         )}

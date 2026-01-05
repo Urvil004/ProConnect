@@ -200,7 +200,7 @@ export default function SettingsPage() {
                           Show Activity Status
                         </h3>
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                          Let others see when you're online
+                          Let others see when your online
                         </p>
                       </div>
                       <button
@@ -309,7 +309,7 @@ export default function SettingsPage() {
                           Read Receipts
                         </h3>
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                          Let others know when you've read their messages
+                          Let others know when you have read their messages
                         </p>
                       </div>
                       <button
@@ -654,7 +654,7 @@ export default function SettingsPage() {
                         Active Sessions
                       </h3>
                       <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-                        Manage devices where you're currently logged in
+                        Manage devices where your currently logged in
                       </p>
                       <div className="space-y-3">
                         <div className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">

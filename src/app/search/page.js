@@ -301,7 +301,7 @@ function SearchPageContent() {
                           <Link href={`/profile/${user.firebaseUid}`}>
                             <div className="flex items-center gap-4 group cursor-pointer">
                               {user.profilePicture ? (
-                                <img
+                                <image
                                   src={user.profilePicture}
                                   alt={user.name}
                                   className="w-16 h-16 rounded-full object-cover ring-2 ring-gray-200 dark:ring-gray-700 group-hover:ring-blue-300 dark:group-hover:ring-blue-500 transition-all duration-200"

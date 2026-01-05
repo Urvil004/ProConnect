@@ -87,7 +87,7 @@ export default function ContactPage() {
             transition={{ delay: 0.1 }}
             className="text-xl text-blue-100 dark:text-blue-200"
           >
-            We'd love to hear from you. Send us a message!
+            We would love to hear from you. Send us a message!
           </motion.p>
         </div>
       </div>

@@ -188,7 +188,7 @@ export default function NewsPage() {
               <CardContent className="p-0">
                 {/* News Image */}
                 <div className="relative h-48 bg-gradient-to-r from-blue-500 to-purple-500 dark:from-blue-600 dark:to-purple-600 rounded-t-lg overflow-hidden">
-                  <img
+                  <image
                     src={news.image}
                     alt={news.title}
                     className="w-full h-full object-cover"
